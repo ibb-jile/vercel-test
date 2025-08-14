@@ -32,7 +32,7 @@ export default function Home() {
           <div className="py-20">
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
               Ahoj, jsem
-              <span className="text-blue-600 dark:text-blue-400"> JiLe</span>
+              <span className="text-blue-600 dark:text-blue-400"> JiLe ze Stroeer labs</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
               Web Developer a Designer se zaměřením na moderní technologie a uživatelský zážitek.
