@@ -32,20 +32,20 @@ export default function Home() {
           <div className="py-20">
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
               Ahoj, jsem
-              <span className="text-blue-600 dark:text-blue-400"> Váš Název</span>
+              <span className="text-blue-600 dark:text-blue-400"> JiLe</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
               Web Developer a Designer se zaměřením na moderní technologie a uživatelský zážitek.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="#contact" 
+              <a
+                href="#contact"
                 className="px-8 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors font-semibold"
               >
                 Kontaktujte mě
               </a>
-              <a 
-                href="#about" 
+              <a
+                href="#about"
                 className="px-8 py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full hover:bg-blue-600 hover:text-white transition-colors font-semibold"
               >
                 Zjistit více
@@ -64,11 +64,11 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                Jsem vášnivý web developer s více než X lety zkušeností v oblasti vývoje moderních webových aplikací. 
+                Jsem vášnivý web developer s více než X lety zkušeností v oblasti vývoje moderních webových aplikací.
                 Specializuji se na React, Next.js a další moderní technologie.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                Miluji tvorbu čistého, efektivního kódu a uživatelsky přívětivých rozhraní. 
+                Miluji tvorbu čistého, efektivního kódu a uživatelsky přívětivých rozhraní.
                 Věřím, že dobrý design a funkcionalita jdou ruku v ruce.
               </p>
             </div>
@@ -148,8 +148,8 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
                   Email
                 </h3>
-                <a 
-                  href="mailto:vas@email.cz" 
+                <a
+                  href="mailto:vas@email.cz"
                   className="text-blue-600 dark:text-blue-400 hover:underline text-lg"
                 >
                   vas@email.cz
@@ -159,8 +159,8 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
                   Telefon
                 </h3>
-                <a 
-                  href="tel:+420123456789" 
+                <a
+                  href="tel:+420123456789"
                   className="text-blue-600 dark:text-blue-400 hover:underline text-lg"
                 >
                   +420 123 456 789
