@@ -31,7 +31,7 @@ npm run lint
 - **Styling**: Tailwind CSS with dark mode support
 - **Typography**: Geist font family (sans and mono)
 - **Language**: Czech (cs) with TypeScript
-- **Deployment**: Optimized for Vercel (zero-config deployment)
+- **Deployment**: Optimized for Vercel with GitHub Actions automation
 
 ## Key Features
 
@@ -55,3 +55,20 @@ To personalize the website:
 - Adjust skills lists to match your expertise
 - Change color scheme by modifying Tailwind classes (currently blue-focused)
 - Update metadata in layout.tsx for SEO
+
+## Deployment
+
+This project includes GitHub Actions for automated Vercel deployment:
+
+- **Preview deployments**: Automatically created for pull requests
+- **Production deployments**: Automatically deployed when pushing to main branch
+
+### Setup Instructions
+
+1. See `DEPLOYMENT.md` for detailed setup instructions
+2. Configure GitHub Secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`
+3. GitHub Actions will handle the rest automatically
+
+### Workflow Files
+
+- `.github/workflows/vercel.yml` - Main deployment workflow
